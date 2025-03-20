@@ -4,7 +4,7 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class Orders(
+data class Order(
     @SerialName("id")
     val id: String,
 
@@ -18,8 +18,10 @@ data class Orders(
     val createdAt: String,
 
     @SerialName("delivered_at")
-    val deliveredAt: String,
+    val deliveredAt: String? = null,
 
-    @SerialName("user_iduser_id")
-    val userId: String,
+    @SerialName("user_id")
+    val userId: String? = null,
+
+    val status: String? = null
 )

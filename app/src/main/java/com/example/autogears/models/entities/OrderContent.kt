@@ -2,7 +2,6 @@ package com.example.autogears.models.entities
 
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import java.util.UUID
 
 @Serializable
 data class OrderContent(

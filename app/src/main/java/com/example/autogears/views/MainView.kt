@@ -23,7 +23,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import com.example.autogears.viewmodels.AuthViewModel
 import com.example.autogears.viewmodels.MainViewModel
 import com.example.autogears.views.mainviews.SparePartsScreen
 import com.example.autogears.views.mainviews.CartScreen

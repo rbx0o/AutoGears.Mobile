@@ -4,7 +4,7 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class SpareParts(
+data class SparePart(
     @SerialName("id")
     val id: String,
 
